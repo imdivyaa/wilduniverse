@@ -1,0 +1,83 @@
+ *{
+	margin:0;
+	padding:0;
+	font-family :century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,005)),url(../00.gif); 
+	height: 160vh ;
+	background-size:cover;
+	background-position:center;
+}
+ul{
+	float:left; 
+	list-style-type: none;
+	margin-top:25px;
+	position:absolute;
+	top:90%;
+		left:50%;
+	transform: translate(-37%,-50%);
+}
+ul{
+	float:left; 
+	list-style-type: none;
+	margin-top:25px;
+	position:absolute;
+	top:150%;
+		left:50%;
+	transform: translate(-37%,-50%);
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:aliceblue;
+	padding:5px 20px;
+	border:1px solid transparant;
+	transition:0.7s ease ;
+}
+ul li a:hover{
+	background-color:#fff; 
+	color:#000;
+}
+
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+ 
+ .logo 2 img{
+float:middle;
+	 width: 250px;
+	 height: auto;
+	 position:absolute;
+		top:10%;
+		left:50%;
+		transform: translate(-50%,-50%);
+ }
+	.title{
+		position:absolute;
+		top:10%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+	.title h1{
+		font-family:Stencil;
+		color:darkgoldenrod;
+	    font-size:50px
+		
+	}
+	.cob{
+		font-family:century Gothic;
+		display: inline-block;
+		position:absolute;
+		top:29%;
+		left:50%;
+		transform:translate(-50%,-10%);
+		color:#fff;
+	}
+	
+		
+		
+	 
